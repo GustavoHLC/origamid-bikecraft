@@ -16,7 +16,7 @@
     text-transform: uppercase;
     font-size: 18px;
     line-height: 1.33;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     max-width: max-content;
     border: none;
@@ -77,6 +77,10 @@ transform: translateX(4px);
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--C11);
+}
+
+.titulo {
+    background: url('../../img/dec/top-right.svg') no-repeat top 40px right 20px;
 }
 
 .titulo p {

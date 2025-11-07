@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bikecraft - Bicicletas Eletricas</title>
+    <title>Bikcraft - Bicicletas Eletricas</title>
     <meta name="description"
         content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
+    <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +20,7 @@
     <header class="header-bg">
         <div class="header container">
             <a href="./">
-                <img src="./img/bikcraft.svg" alt="Bikecraft">
+                <img src="./img/bikcraft.svg" width="136" height="32" alt="Bikcraft">
             </a>
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-00">
@@ -40,9 +41,10 @@
                     na sua velocidade com a Bikcraft.</p>
                 <a href="./bicicletas.html" class="btn botao primary-5">SELECIONE A SUA</a>
             </div>
-            <div>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
                 <img src="./img/fotos/introducao.jpg" alt="Bicicleta Elétrica Preta">
-            </div>
+            </picture>
         </div>
     </main>
 
@@ -181,7 +183,7 @@
 
     <footer class="footer-bg">
         <div class="footer container">
-            <img src="./img/bikcraft.svg" alt="Bikecraft">
+            <img src="./img/bikcraft.svg" alt="Bikcraft">
             <div class="footer-contato">
                 <h3 class="font-2-l-b cor-00">Contato</h3>
                 <ul class="font-2-m cor-05">
